@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+} 
+.nav-icon-button {
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+}
+.nav-icon-button:hover {
+      background-color: #05000d;
+}
+.nav-icon-button:active {
+      background-color: #05000d;
+}
+.v-toolbar__content .v-btn.v-btn--icon.v-size--default {
+      height: 36px;
+      width: 36px;
+}
+.titulo-home {
+    font-weight: 500;
+}
+.titulo-cabecera {
+    background: #eaeaea;
+    border-radius: 50px;
+}
+.cards-estilo {
+    padding: 10px;
+}
+.botones-header {
+    display: flex; 
+    justify-content: space-between;
+    gap: 10px;
+}
+.site-container {
+    width: 100%; 
+    margin: 0 auto; 
+}
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.boton-inhabilitado {
+    cursor:unset;
+}
+.v-application a {
+    color: #ffffff;
+    text-decoration: none;
+}
